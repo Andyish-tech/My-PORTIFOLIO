@@ -1,0 +1,321 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color :rgb(72, 4, 162);
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+gap: 30px; 
+top: 0;
+z-index: 1;
+height: 30px; 
+background-color: #020019;
+padding: 30px 30px;
+}
+nav a {
+color: white;
+text-decoration: none;
+
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+}
+.same-margin {
+    margin: auto ;
+    display: flex;
+}
+.div-1 {
+    width: 60%;
+    text-align: justify;
+    padding: 0px 100px 0px 30px;
+
+    text-align: center;
+}
+.div-1 h1{
+    font-size: 100px;
+   margin-bottom: -80px;
+   color: white;
+   
+}
+.div-1 h1 span{
+    color: #120a68;
+    font-weight: bolder;
+    font-size: 120px;
+    margin-left: 160px;
+    font-family: sans-serif;
+   
+    
+}
+.div-1 p{
+   
+    color: gray;
+    font-size: 14px;
+}
+.div-2 {
+    width:40%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div-2 img {
+    margin-top: -250px;
+    /* padding-right: 200px; */
+    width: 700px;
+    height: 700px;
+    image-resolution: linear-gradient(0,0,0,0,0.5) ;
+    
+}
+
+/* the syle for about section */
+
+.about {
+    padding: 50px 20px;
+    margin-top: -80px;
+    color: white;
+    background: #020019;
+}
+.about h2{
+    /* text-align: center; */
+    font-size: 50px;
+    color: whitesmoke;
+    /* margin-top: -50px; */
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-pic {
+    width: 150px;
+    border-radius: 30%;
+}
+.about-text p {
+    margin: 0 0 10px;
+}
+
+/* Experience Section */
+.experience {
+    padding: 50px 20px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.timeline-item {
+    border-left: 3px solid #020019;
+    padding-left: 20px;
+}
+
+/* this is styling for skills section  */
+#skills-section{
+    text-align: center;
+}
+#skills-section h1{
+    font-size: 50px;
+    color: whitesmoke;
+}
+.skills-container{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.skills-card{
+    background-color: #020019;
+    color:whitesmoke;
+    width: 30%;
+    margin: auto 15px;
+    border-radius: 6px;
+    padding: 80px 3px 30px 3px;
+
+}
+.skills-card h2{
+    font-weight: lighter;
+}
+.skills-card p{
+    color: gray;
+}
+
+/* this is the style for previouse work sectiom */
+#work-section{
+    text-align: center;
+}
+#work-section h2{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.work-container{
+    display: flex;  
+    color: gray;
+    border-radius: 5px;
+    justify-content: center;
+    height: 80vh;  
+}
+.work-content{
+    border: 1px solid #120a68;
+    width: 27%;
+    margin: auto 30px;
+    border-radius: 5px;
+}
+.work-content img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 400px;
+}
+.work-content p{
+    padding: 50px 20px 15px 12px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.work-content button{
+    color: gray;
+    background-color: #020019;
+    /* border: 5px solid gray; */
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+
+}
+
+
+/* this is the styling for testimonial-section */
+#testimonial-section{
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 40px;
+    background-color: #020019;
+    /* border-top: solid 2px rgb(52, 52, 107); */
+}
+#testimonial-section h2{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.test-container{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+
+.test-content{
+    width: 50%;
+    margin: auto;
+}
+
+.test-word{
+    text-align: justify;
+    padding: 0px 15px;
+    margin-left: 35px;
+}
+.test-word h3{
+    font-size: 30px;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+
+.test-word p{
+    color: gray;
+    padding: 5px 0px;
+}
+
+.test-word button{
+    border: none;
+    border-radius: 3px;
+    padding: 13px 23px;
+    width: 200px;
+    border: 1px solid white;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    background-color: #020019;
+    cursor: pointer;
+}
+
+.test-img img{
+    border-radius: 50%;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 2rem;
+    background-color: black;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 2rem;
+}
+
+#contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #020019;
+}
+
+#contact-form button {
+    padding: 0.75rem;
+    background-color: whitesmoke;
+    color: #020019;
+    border: solid 1px #ddd;;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    border: 1px solid whitesmoke;
+    background-color: #020019;
+    color: white;
+}
+
+.contact-info {
+    flex: 1;
+    grid-template-columns: 1fr;
+    color: white;
+    /* gap: -4rem;  */
+}
+.info-item {
+    display: flex;
+    align-items: center;
+}
+
+.info-item i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+footer{
+text-align: center;
+background-color: rgb(255, 255, 255);
+color: rgb(50, 49, 49);
+padding: 20px;
+margin-top: 40px;
+}
+
